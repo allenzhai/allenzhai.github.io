@@ -1,0 +1,8 @@
+.parallax-window {
+    min-height: 550px;
+    background: transparent;
+}
+
+nav nav a img {
+	border-radius: 50%
+}
