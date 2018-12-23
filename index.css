@@ -6,3 +6,10 @@
 nav nav a img {
 	border-radius: 50%
 }
+ul{
+	list-style-type: none;
+}
+
+li{
+	list-style-type: none;
+}
