@@ -1,7 +1,18 @@
 .parallax-window {
-    min-height: 550px;
-    background: transparent;
+    padding-top: 52px;
+	margin: 0px;
+	min-height: 500px;
 }
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+div{
+	overflow: auto;
+}
+
 
 nav nav a img {
 	border-radius: 50%
@@ -18,12 +29,45 @@ li{
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	background-color: rgb(245, 245, 245);
+	background-color: #557684;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
 
 .icon {
+	border-radius: 50%;
 	padding-left: 3%;
 	padding-right: 3%;
+}
+
+.document {
+	text-align: center;
+}
+
+.page {
+	background-color: #5F8493;
+	text-align: center;
+}
+
+h1 {
+	color: #e3e3e3; 
+	text-align: center;
+	padding-top: 52px;
+}
+
+h2 {
+	color: #e3e3e3;
+	text-align: center;
+}
+
+p {
+	color: #e3e3e3; 
+	text-align: left;
+	padding-left: 500px;
+	padding-right: 500px;
+}
+
+.navbar{
+	height: 52px;
+	background-color:#1d2120;
 }
