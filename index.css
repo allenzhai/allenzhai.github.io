@@ -2,6 +2,21 @@
     padding-top: 52px;
 	min-height: 500px;
 }
+.intro-pic{
+	z-index: 0
+	background: transparent;
+	min-height: 900px;
+}
+.name1{
+	font-size: 30px;
+	color: white;
+	text-align: right;
+}
+.name2{
+	font-size: 95px;
+	color: white;
+	text-align: right;
+}
 
 html{
 	scroll-behavior: smooth;
@@ -21,13 +36,15 @@ ul{
 li{
 	list-style-type: none;
 }
+body{
+	width: 100%;
+}
 
 .footer{
-	position: absolute;
 	width: 100%;
 	text-align: center;
-	background-color: #557684;
-	padding-top: 32px;
+	background-color: #e3e3e3;
+	padding-top: 4px;
 	padding-bottom: 4px;
 }
 
@@ -47,19 +64,26 @@ li{
 
 
 h1 {
-	color: #e3e3e3; 
+	color: #6c757d; 
 	padding-top: 52px;
 }
 
-h2 {
-	color: #e3e3e3;
+h2, p {
+	color: #6c757d;
 }
 
-p {
-	color: #e3e3e3; 
-}
 
 .navbar{
 	height: 52px;
-	background-color:#1d2120;
+	background: linear-gradient(pink 30%, white ) !important;
 }
+
+.card{
+	margin: auto;
+	box-shadow: 1px 1px  #888888;
+	padding: 2vw;
+	width: 40vw;
+	text-align: center;
+}
+
+
